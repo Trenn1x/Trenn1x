@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:2563eb&height=220&section=header&text=Thomas%20Verdier&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Profile banner" />
 </p>
 
-<h2 align="center">AI and data product builder shipping practical tools fast</h2>
+<h2 align="center">AI, agents, and data product builder shipping practical tools fast</h2>
 
 <p align="center">
   <a href="https://github.com/Trenn1x?tab=followers">
@@ -15,33 +15,33 @@
 </p>
 
 ## What I Build
-- AI features: summarization, sentiment analysis, LLM evaluation, and agent workflows.
+- AI systems: multi-agent workflows, summarization, sentiment analysis, and LLM evaluation.
 - Data systems: ETL pipelines, event processing, monitoring, and automation.
 - Product prototypes: end-to-end web apps built for speed, clarity, and real-world use.
 
 ## Featured Projects
 <p>
-  <a href="https://github.com/Trenn1x/golf-marker-designer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=golf-marker-designer&theme=transparent&hide_border=true" alt="golf-marker-designer" />
+  <a href="https://github.com/Trenn1x/agent-company">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=agent-company&theme=transparent&hide_border=true" alt="agent-company" />
   </a>
-  <a href="https://github.com/Trenn1x/quickbrief">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=quickbrief&theme=transparent&hide_border=true" alt="quickbrief" />
+  <a href="https://github.com/Trenn1x/terraformal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=terraformal&theme=transparent&hide_border=true" alt="terraformal" />
   </a>
 </p>
 <p>
   <a href="https://github.com/Trenn1x/model-evaluation-app">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=model-evaluation-app&theme=transparent&hide_border=true" alt="model-evaluation-app" />
   </a>
-  <a href="https://github.com/Trenn1x/quick-etl-demo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=quick-etl-demo&theme=transparent&hide_border=true" alt="quick-etl-demo" />
+  <a href="https://github.com/Trenn1x/secure-ops-portal-anon">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=secure-ops-portal-anon&theme=transparent&hide_border=true" alt="secure-ops-portal-anon" />
   </a>
 </p>
 <p>
-  <a href="https://github.com/Trenn1x/event-processing-pipeline">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=event-processing-pipeline&theme=transparent&hide_border=true" alt="event-processing-pipeline" />
+  <a href="https://github.com/Trenn1x/drone-data-mesh-orchestrator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=drone-data-mesh-orchestrator&theme=transparent&hide_border=true" alt="drone-data-mesh-orchestrator" />
   </a>
-  <a href="https://github.com/Trenn1x/terraformal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=terraformal&theme=transparent&hide_border=true" alt="terraformal" />
+  <a href="https://github.com/Trenn1x/quick-etl-demo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=quick-etl-demo&theme=transparent&hide_border=true" alt="quick-etl-demo" />
   </a>
 </p>
 
