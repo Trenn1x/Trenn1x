@@ -21,6 +21,11 @@
 
 ## Featured Projects
 <p>
+  <a href="https://github.com/Trenn1x/localaid-starter">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=localaid-starter&theme=transparent&hide_border=true" alt="localaid-starter" />
+  </a>
+</p>
+<p>
   <a href="https://github.com/Trenn1x/agent-company">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=agent-company&theme=transparent&hide_border=true" alt="agent-company" />
   </a>
