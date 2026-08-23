@@ -1,60 +1,47 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:2563eb&height=220&section=header&text=Thomas%20Verdier&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Profile banner" />
-</p>
+# Thomas Verdier
 
-<h2 align="center">AI, agents, and data product builder shipping practical tools fast</h2>
+Charleston, South Carolina | Independent researcher and technical operator
 
-<p align="center">
-  <a href="https://github.com/Trenn1x?tab=followers">
-    <img src="https://img.shields.io/github/followers/Trenn1x?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/Trenn1x?tab=repositories">
-    <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%C2%B7%20Data%20Pipelines%20%C2%B7%20Web%20Apps-0f766e?style=for-the-badge" alt="Focus areas" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Trenn1x&style=for-the-badge&color=2563eb" alt="Profile views" />
-</p>
+I build practical tools for messy workflows: research synthesis, data QA, operational triage, AI-assisted processes, and small products that need to become testable quickly.
 
-## What I Build
-- AI systems: multi-agent workflows, summarization, sentiment analysis, and LLM evaluation.
-- Data systems: ETL pipelines, event processing, monitoring, and automation.
-- Product prototypes: end-to-end web apps built for speed, clarity, and real-world use.
+I am open to remote or Charleston-area contract work, especially focused 10–40 hour projects in research, workflow automation, technical documentation, data operations, and prototype delivery.
 
-## Featured Projects
-<p>
-  <a href="https://github.com/Trenn1x/localaid-starter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=localaid-starter&theme=transparent&hide_border=true" alt="localaid-starter" />
-  </a>
-</p>
-<p>
-  <a href="https://github.com/Trenn1x/agent-company">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=agent-company&theme=transparent&hide_border=true" alt="agent-company" />
-  </a>
-  <a href="https://github.com/Trenn1x/terraformal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=terraformal&theme=transparent&hide_border=true" alt="terraformal" />
-  </a>
-</p>
-<p>
-  <a href="https://github.com/Trenn1x/model-evaluation-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=model-evaluation-app&theme=transparent&hide_border=true" alt="model-evaluation-app" />
-  </a>
-  <a href="https://github.com/Trenn1x/secure-ops-portal-anon">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=secure-ops-portal-anon&theme=transparent&hide_border=true" alt="secure-ops-portal-anon" />
-  </a>
-</p>
-<p>
-  <a href="https://github.com/Trenn1x/drone-data-mesh-orchestrator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=drone-data-mesh-orchestrator&theme=transparent&hide_border=true" alt="drone-data-mesh-orchestrator" />
-  </a>
-  <a href="https://github.com/Trenn1x/quick-etl-demo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Trenn1x&repo=quick-etl-demo&theme=transparent&hide_border=true" alt="quick-etl-demo" />
-  </a>
-</p>
+## Start here
 
-## GitHub Snapshot
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Trenn1x&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Trenn1x&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
-</p>
+These six repositories are the clearest view of my work. I would start with the first three.
 
-## Collaboration
-- Open to collaboration on AI product engineering, automation systems, and data-heavy web apps.
+| Project | Problem it addresses | What to inspect |
+|---|---|---|
+| [Tale & Tally](https://github.com/Trenn1x/tale-and-tally) | Finite, privacy-first adaptive practice for ages 5–7 | [Live demo](https://trenn1x.github.io/tale-and-tally/#/demo), React/TypeScript PWA, local mastery model, privacy controls, and CI |
+| [Security Operations Command Portal](https://github.com/Trenn1x/secure-ops-portal-anon) | Shift visibility, patrol gaps, incident triage, client reporting, and handoffs | Flask workflows, role boundaries, SQLite/Postgres path, exports, and 10 integration tests |
+| [LocalAid Starter](https://github.com/Trenn1x/localaid-starter) | Mobile-friendly community-service intake and staff follow-through | React/TypeScript, Express, SQLite, Docker, validation, exports, and explicit deployment limits |
+| [Agent Company](https://github.com/Trenn1x/agent-company) | Turning a vague objective into owned tasks, decisions, risks, and review artifacts | Deterministic and Ollama providers, human approval gates, SQLite memory, and 14 tests |
+| [Modus21 Mission Delivery Toolkit](https://github.com/Trenn1x/modus21-mvp-suite) | Intake triage, requirements shaping, data QA, release controls, and stakeholder briefs | Seven browser utilities, exports, shared scoring logic, and checked-in tests |
+| [Utility Data Hub Demo](https://github.com/Trenn1x/utility-data-hub-demo) | Integrating work-order and alarm exports into decision-ready operational reports | Python ETL, SQLite and SQL schemas, synthetic source data, and checked-in report outputs |
+
+## Work I can help with
+
+- Research briefs, literature matrices, evidence tables, and technical summaries
+- CRM, intake, reporting, and follow-up workflow cleanup
+- Small AI or automation prototypes with clear human approval boundaries
+- Data ingestion, validation, prioritization, and decision-ready exports
+- Technical documentation, runbooks, requirements, and handoff packages
+
+## Research and writing
+
+- Accepted manuscript: *Support-Mackey Mobility Cohomology*
+- Published work in the *Journal of Applied Mathematics and Physics*
+- Recent submissions spanning physics, genetics, clinical epidemiology, and operational research
+- Background in psychology, research design and data analysis, and decision research
+
+## Tools I actually use
+
+Python, JavaScript/TypeScript, React, Flask, FastAPI, Node.js, SQLite, PostgreSQL, Docker, GitHub Actions, Streamlit, and local or API-backed model workflows.
+
+## Working style
+
+I like bounded problems, explicit assumptions, traceable source work, and outputs another person can inspect. Several repositories are deliberately labeled as prototypes or pilots. The six above are where I would start rather than treating every experiment as equally finished.
+
+## Contact
+
+For a short project or a practical fit question: [tverdier88@gmail.com](mailto:tverdier88@gmail.com)
