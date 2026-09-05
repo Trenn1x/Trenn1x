@@ -88,6 +88,7 @@ these checks.
 ## Files
 
 - `dist/index.html`: hosted entrypoint.
+- `dist/partners.html`: licensing, pilot, and acquisition overview.
 - `dist/styles.css`: shared responsive and print styles.
 - `dist/model.js`: pure calculation and plan-validation module.
 - `dist/app.js`: interface, local persistence, print, and export/import flows.
