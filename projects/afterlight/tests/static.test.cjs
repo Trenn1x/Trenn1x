@@ -9,7 +9,7 @@ const root=path.resolve(__dirname,'../dist');
 test('all hosted entrypoint assets exist and scripts parse',()=>{
   const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
   for(const match of html.matchAll(/(?:src|href)="([^"]+)"/g)){
-    const ref=match[1];if(ref.startsWith('#')||ref.startsWith('https:'))continue;
+    const ref=match[1];if(ref.startsWith('#')||ref.startsWith('https:')||ref.startsWith('mailto:'))continue;
     assert.ok(fs.existsSync(path.join(root,ref)),`Missing ${ref}`);
   }
   for(const file of ['model.js','app.js','sw.js'])new vm.Script(fs.readFileSync(path.join(root,file),'utf8'),{filename:file});

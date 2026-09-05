@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#132a38">
+  <meta name="theme-color" content="#071c2a">
   <meta name="description" content="Make a practical power outage plan. Estimate battery runtime, check your water supply, and take a personalized checklist offline.">
   <title>Afterlight — Your power outage plan</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -16,17 +16,28 @@
   <a class="skip-link" href="#main">Skip to planner</a>
   <header class="site-header">
     <a class="brand" href="#overview" aria-label="Afterlight home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>afterlight<span class="brand-period">.</span></a>
-    <span class="header-purpose">A little preparation. A lot more peace of mind.</span>
+    <span class="header-purpose"><i aria-hidden="true"></i>Private inputs · Works offline</span>
     <div class="header-actions"><span class="save-status" id="save-status">Example plan</span><button class="button button-dark" id="save-open" type="button"><span data-icon="download"></span><span>Save your plan</span></button></div>
   </header>
   <main id="main" tabindex="-1">
-    <div class="page-heading"><div><p class="eyebrow">THE POWER CAN GO. THE PLAN STAYS.</p><h1>Your next outage,<br class="mobile-break"> thought through.</h1></div><p class="heading-note">A plan for the people<br>and things you count on.</p></div>
+    <section class="page-heading" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <div class="hero-kicker"><p class="eyebrow">THE POWER CAN GO. THE PLAN STAYS.</p><span class="public-badge">Free public tool</span></div>
+        <h1 id="page-title">Your next outage,<br class="mobile-break"> thought through.</h1>
+        <p class="hero-description">Turn the water, battery, and time you have into a plan your household can actually use.</p>
+      </div>
+      <div class="hero-proof" aria-label="Afterlight features">
+        <div><span>01</span><p><strong>No account</strong><small>Your plan stays in this browser.</small></p></div>
+        <div><span>02</span><p><strong>Useful offline</strong><small>Save one file and take it with you.</small></p></div>
+        <div><span>03</span><p><strong>Clear assumptions</strong><small>Every estimate is editable.</small></p></div>
+      </div>
+    </section>
     <nav class="view-nav" aria-label="Planner sections"><button class="view-button active" data-view="overview" aria-current="page"><span class="nav-number">01</span> Your plan</button><button class="view-button" data-view="power"><span class="nav-number">02</span> Power lab</button><button class="view-button" data-view="checklist"><span class="nav-number">03</span> Your checklist<span class="nav-count" id="nav-check-count">0/12</span></button></nav>
     <div id="app"></div>
     <noscript><div class="notice">Afterlight needs JavaScript for its calculations. <a href="https://www.ready.gov/power-outages">Read Ready.gov’s outage guidance</a> for a printable alternative.</div></noscript>
     <section class="safety-strip" aria-label="Essential outage safety"><div class="safety-icon" data-icon="shield"></div><div><strong>Some things come before the plan.</strong><p>Follow local emergency instructions. Move to a safer place if heat, cold, or medical needs make home unsafe. For immediate danger in the U.S., call 911.</p></div><button class="text-button" id="sources-open" type="button">Guidance & sources <span aria-hidden="true">↗</span></button></section>
   </main>
-  <footer class="site-footer"><a class="brand brand-small" href="#overview">afterlight.</a><span>Built by Thomas Verdier · A small tool for a more prepared world.</span><div><button class="text-button" id="privacy-open" type="button">Privacy</button><button class="text-button" id="method-open" type="button">How we calculate</button></div></footer>
+  <footer class="site-footer"><a class="brand brand-small" href="#overview">afterlight.</a><span>Built by Thomas Verdier · A small tool for a more prepared world.</span><div><a class="text-button partner-link" href="mailto:tverdier88@gmail.com?subject=Afterlight%20partnership">Partner with Afterlight</a><button class="text-button" id="privacy-open" type="button">Privacy</button><button class="text-button" id="method-open" type="button">How we calculate</button></div></footer>
   <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-heading"><div><p class="eyebrow" id="modal-kicker"></p><h2 id="modal-title"></h2></div><button class="icon-button" id="modal-close" aria-label="Close dialog" type="button"><span data-icon="close"></span></button></div><div id="modal-content"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <div id="live-summary" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>

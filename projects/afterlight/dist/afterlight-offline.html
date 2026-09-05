@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#132a38">
+  <meta name="theme-color" content="#071c2a">
   <meta name="description" content="Make a practical power outage plan. Estimate battery runtime, check your water supply, and take a personalized checklist offline.">
   <title>Afterlight — Your power outage plan</title>
   <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiMxMzJhMzgiLz48ZyBmaWxsPSIjZjliNDRhIj48cmVjdCB4PSIxNCIgeT0iMTQiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgcng9IjIiLz48cmVjdCB4PSIzNSIgeT0iMTQiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgcng9IjIiLz48cmVjdCB4PSIxNCIgeT0iMzUiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgcng9IjIiLz48cmVjdCB4PSIzNSIgeT0iMzUiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgcng9IjIiLz48L2c+PC9zdmc+Cg==" type="image/svg+xml">
@@ -22,6 +22,106 @@
 .helper{font-size:14px}.action-content p,.view-heading p,.dialog-copy{font-size:16px}.check-item p{font-size:14px}.device-name{font-size:15px}.mobile-summary{display:none}
 @media(max-width:680px){.mobile-summary{display:grid;grid-template-columns:1fr 1fr;gap:18px;background:var(--ink);color:white;border-radius:10px;padding:14px 17px;margin:0 0 19px}.mobile-summary>div+div{border-left:1px solid #476273;padding-left:17px}.mobile-summary span{display:block;color:#c1d1da;font-size:12px;line-height:1.5}.mobile-summary strong{display:block;font-size:26px;font-weight:600;letter-spacing:-.7px;margin-top:2px;line-height:1.2}.mobile-summary small{font-size:14px;letter-spacing:0;font-weight:450;color:#c1d1da}.field-label,.check-label,.stat-label{font-size:14px}.action-content p,.view-heading p{font-size:15px}.scenario-panel .helper{font-size:13px}.device-heading .helper{font-size:13px}.check-item strong{font-size:15px}.check-item p{font-size:14px}.dialog-copy{font-size:15px}.battery-form .field-pair .field-label{font-size:14px}}
 
+/* 2026 public launch visual system. */
+@media screen{
+  :root{--ink:#0a2636;--muted:#506977;--line:#d5e2e8;--paper:#edf4f6;--blue:#2457e6;--blue-light:#eaf0ff;--amber:#ffbd59;--teal:#83dfcf;--radius:20px;--shadow:0 14px 40px rgba(8,38,54,.07)}
+  body{min-height:100vh;background-color:var(--paper);background-image:radial-gradient(circle at 8% 9%,rgba(36,87,230,.09),transparent 27rem),radial-gradient(circle at 94% 22%,rgba(131,223,207,.12),transparent 24rem),linear-gradient(180deg,#f7fafb 0,#edf4f6 48rem)}
+  .site-header{height:84px;position:relative;z-index:10;border:0;background:#071c2a;color:#fff;box-shadow:0 1px 0 rgba(255,255,255,.08);overflow:hidden}
+  .site-header:after{content:"";position:absolute;inset:auto -8% -54px 48%;height:96px;pointer-events:none;background:radial-gradient(ellipse,rgba(36,87,230,.42),transparent 67%)}
+  .site-header>*{position:relative;z-index:1}
+  .site-header .brand{color:#fff}
+  .site-header .brand-mark i{background:#6384ff;box-shadow:0 0 13px rgba(99,132,255,.55)}
+  .site-header .brand-mark i:last-child{background:var(--amber);box-shadow:0 0 13px rgba(255,189,89,.55)}
+  .header-purpose{display:inline-flex;align-items:center;gap:8px;color:#a9bdc8;font-size:12px;letter-spacing:.01em;text-transform:uppercase}
+  .header-purpose i{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 5px rgba(131,223,207,.09),0 0 14px rgba(131,223,207,.7)}
+  .site-header .save-status{color:#a9bdc8}
+  .site-header .button-dark{background:var(--amber);color:#0a2636;border-color:#ffd38b;box-shadow:0 7px 24px rgba(255,189,89,.15)}
+  .site-header .button-dark:hover{background:#ffd07f}
+  main{padding-top:30px}
+  .page-heading{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(330px,.55fr);align-items:stretch;gap:28px;margin-bottom:20px;padding:30px 32px;border:1px solid rgba(119,151,167,.28);border-radius:28px;background:linear-gradient(122deg,#0a2636 0,#0b3146 52%,#102c42 100%);box-shadow:0 22px 60px rgba(7,28,42,.15);color:#fff;position:relative;overflow:hidden;isolation:isolate}
+  .page-heading:before{content:"";position:absolute;width:390px;height:390px;border-radius:50%;right:21%;top:-305px;border:1px solid rgba(131,223,207,.25);box-shadow:0 0 90px rgba(36,87,230,.24);z-index:-1}
+  .page-heading:after{content:"";position:absolute;width:260px;height:260px;right:-100px;bottom:-185px;transform:rotate(30deg);background:linear-gradient(120deg,rgba(255,189,89,.34),rgba(131,223,207,.08));filter:blur(2px);z-index:-1}
+  .hero-copy{align-self:center;max-width:780px}
+  .hero-kicker{display:flex;align-items:center;gap:13px;margin-bottom:10px}
+  .page-heading .eyebrow{color:#a9c0cb;margin:0}
+  .public-badge{display:inline-flex;align-items:center;padding:4px 8px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.08);color:#dce8ed;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .page-heading h1{font-size:clamp(33px,4vw,54px);line-height:1.02;letter-spacing:-2.6px;text-wrap:balance}
+  .hero-description{max-width:630px;margin-top:15px;color:#bed0d9;font-size:15px;line-height:1.65}
+  .hero-proof{display:grid;gap:7px;align-self:center}
+  .hero-proof>div{display:flex;align-items:center;gap:13px;padding:10px 12px;border:1px solid rgba(255,255,255,.11);border-radius:13px;background:rgba(255,255,255,.055);backdrop-filter:blur(8px)}
+  .hero-proof>div>span{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;background:rgba(131,223,207,.11);color:var(--teal);font-size:10px;font-weight:750;letter-spacing:.05em;flex:none}
+  .hero-proof p{display:grid;gap:1px}
+  .hero-proof strong{font-size:12px;letter-spacing:.01em}
+  .hero-proof small{color:#a9bdc8;font-size:11px;line-height:1.45}
+  .view-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0 0 24px;padding:6px;border:1px solid rgba(151,177,189,.38);border-radius:15px;background:rgba(255,255,255,.82);box-shadow:0 10px 28px rgba(8,38,54,.06);backdrop-filter:blur(12px)}
+  .view-button{justify-content:center;min-height:43px;padding:0 12px;border-radius:10px;transition:color .16s,background .16s,box-shadow .16s}
+  .view-button:after{display:none}
+  .view-button:hover{background:#f0f5f7;color:var(--ink)}
+  .view-button.active{background:var(--ink);color:#fff;box-shadow:0 7px 18px rgba(10,38,54,.16)}
+  .view-button.active .nav-number{color:var(--teal)}
+  .view-button.active .nav-count{background:rgba(255,255,255,.12);color:#fff}
+  .panel{border-color:rgba(151,177,189,.36);box-shadow:var(--shadow);background:rgba(255,255,255,.93)}
+  .scenario-panel,.power-settings{position:sticky;top:20px}
+  .energy-card{border:1px solid rgba(255,255,255,.08);background:radial-gradient(circle at 86% 18%,rgba(36,87,230,.36),transparent 34%),linear-gradient(135deg,#071c2a,#0c3347 75%);box-shadow:0 20px 48px rgba(7,28,42,.18)}
+  .energy-card:before{content:"";position:absolute;inset:0;opacity:.18;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,.55) .7px,transparent .7px);background-size:15px 15px;mask-image:linear-gradient(90deg,transparent 30%,#000)}
+  .energy-card>*{position:relative;z-index:1}
+  .energy-card:after{content:"";position:absolute;left:0;top:0;width:88px;height:4px;background:linear-gradient(90deg,var(--amber),var(--teal));border-radius:0 0 4px 0}
+  .energy-number{font-weight:630;text-shadow:0 7px 28px rgba(0,0,0,.15)}
+  .stat-card{position:relative;overflow:hidden}
+  .stat-card:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(var(--blue),var(--teal));opacity:.8}
+  .actions-card{background:linear-gradient(135deg,rgba(255,255,255,.97),rgba(247,251,252,.94))}
+  .action-number{border:1px solid #d9e3ff;background:linear-gradient(145deg,#f4f6ff,#e6edff)}
+  .button{border-radius:11px}
+  .button-blue{background:linear-gradient(135deg,#2c60ed,#1f48ca);box-shadow:0 7px 18px rgba(36,87,230,.17)}
+  .button-blue:hover{background:linear-gradient(135deg,#1e51da,#183cad)}
+  .number-input,.text-input,select,textarea,.stepper{border-color:#cad9e0;border-radius:10px}
+  .number-input:hover,.text-input:hover,select:hover,textarea:hover,.stepper:hover{border-color:#9eb4c0}
+  .status-tag{border-radius:999px;padding-left:9px;padding-right:9px}
+  .safety-strip{margin-top:28px;padding:20px 22px;border:1px solid rgba(151,177,189,.38);border-radius:17px;background:rgba(255,255,255,.72)}
+  .safety-icon{background:linear-gradient(145deg,#e8eff3,#dce8ed);box-shadow:inset 0 0 0 1px rgba(151,177,189,.25)}
+  .site-footer{margin-top:24px;padding-top:24px;border-top:1px solid rgba(151,177,189,.4)}
+  .site-footer .partner-link{color:var(--blue)}
+  dialog{border:1px solid rgba(151,177,189,.42);border-radius:22px;box-shadow:0 28px 90px rgba(7,28,42,.25)}
+  dialog::backdrop{background:rgba(3,18,27,.62);backdrop-filter:blur(4px)}
+}
+@media screen and (max-width:1150px){
+  .page-heading{grid-template-columns:minmax(0,1fr) 315px}
+}
+@media screen and (max-width:900px){
+  .page-heading{grid-template-columns:1fr;padding:27px 28px;gap:20px}
+  .hero-proof{grid-template-columns:repeat(3,1fr)}
+  .hero-proof>div{align-items:flex-start}
+  .hero-proof small{display:none}
+  .scenario-panel,.power-settings{position:static}
+}
+@media screen and (max-width:680px){
+  .site-header{height:74px}
+  main{padding-top:18px}
+  .page-heading{padding:23px 21px 20px;border-radius:21px;margin-bottom:14px;gap:17px}
+  .page-heading h1{font-size:34px;letter-spacing:-1.7px}
+  .hero-kicker{gap:8px;flex-wrap:wrap}
+  .hero-description{font-size:14px;line-height:1.55;margin-top:12px}
+  .hero-proof{gap:5px}
+  .hero-proof>div{display:grid;justify-items:start;gap:7px;padding:8px;border-radius:10px}
+  .hero-proof>div>span{width:24px;height:24px;border-radius:7px}
+  .hero-proof strong{font-size:10px;line-height:1.25}
+  .view-nav{gap:3px;padding:4px;border-radius:12px;margin-bottom:18px}
+  .view-button{gap:5px;min-height:42px;padding:0 6px;border-radius:8px;font-size:12px}
+  .view-button.active{box-shadow:none}
+  .panel{border-radius:17px}
+  .energy-card{border-radius:18px}
+  .safety-strip{border-radius:15px;padding:18px}
+  .site-footer>div{gap:16px;flex-wrap:wrap}
+}
+@media screen and (max-width:365px){
+  .public-badge{display:none}
+  .page-heading{padding:21px 17px 18px}
+  .page-heading h1{font-size:31px}
+  .hero-description{font-size:13px}
+  .hero-proof>div>span{display:none}
+  .hero-proof>div{padding:8px 6px}
+}
+
 </style>
   <script>window.AFTERLIGHT_PORTABLE = true;</script>
   
@@ -30,17 +130,28 @@
   <a class="skip-link" href="#main">Skip to planner</a>
   <header class="site-header">
     <a class="brand" href="#overview" aria-label="Afterlight home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>afterlight<span class="brand-period">.</span></a>
-    <span class="header-purpose">A little preparation. A lot more peace of mind.</span>
+    <span class="header-purpose"><i aria-hidden="true"></i>Private inputs · Works offline</span>
     <div class="header-actions"><span class="save-status" id="save-status">Example plan</span><button class="button button-dark" id="save-open" type="button"><span data-icon="download"></span><span>Save your plan</span></button></div>
   </header>
   <main id="main" tabindex="-1">
-    <div class="page-heading"><div><p class="eyebrow">THE POWER CAN GO. THE PLAN STAYS.</p><h1>Your next outage,<br class="mobile-break"> thought through.</h1></div><p class="heading-note">A plan for the people<br>and things you count on.</p></div>
+    <section class="page-heading" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <div class="hero-kicker"><p class="eyebrow">THE POWER CAN GO. THE PLAN STAYS.</p><span class="public-badge">Free public tool</span></div>
+        <h1 id="page-title">Your next outage,<br class="mobile-break"> thought through.</h1>
+        <p class="hero-description">Turn the water, battery, and time you have into a plan your household can actually use.</p>
+      </div>
+      <div class="hero-proof" aria-label="Afterlight features">
+        <div><span>01</span><p><strong>No account</strong><small>Your plan stays in this browser.</small></p></div>
+        <div><span>02</span><p><strong>Useful offline</strong><small>Save one file and take it with you.</small></p></div>
+        <div><span>03</span><p><strong>Clear assumptions</strong><small>Every estimate is editable.</small></p></div>
+      </div>
+    </section>
     <nav class="view-nav" aria-label="Planner sections"><button class="view-button active" data-view="overview" aria-current="page"><span class="nav-number">01</span> Your plan</button><button class="view-button" data-view="power"><span class="nav-number">02</span> Power lab</button><button class="view-button" data-view="checklist"><span class="nav-number">03</span> Your checklist<span class="nav-count" id="nav-check-count">0/12</span></button></nav>
     <div id="app"></div>
     <noscript><div class="notice">Afterlight needs JavaScript for its calculations. <a href="https://www.ready.gov/power-outages">Read Ready.gov’s outage guidance</a> for a printable alternative.</div></noscript>
     <section class="safety-strip" aria-label="Essential outage safety"><div class="safety-icon" data-icon="shield"></div><div><strong>Some things come before the plan.</strong><p>Follow local emergency instructions. Move to a safer place if heat, cold, or medical needs make home unsafe. For immediate danger in the U.S., call 911.</p></div><button class="text-button" id="sources-open" type="button">Guidance & sources <span aria-hidden="true">↗</span></button></section>
   </main>
-  <footer class="site-footer"><a class="brand brand-small" href="#overview">afterlight.</a><span>Built by Thomas Verdier · A small tool for a more prepared world.</span><div><button class="text-button" id="privacy-open" type="button">Privacy</button><button class="text-button" id="method-open" type="button">How we calculate</button></div></footer>
+  <footer class="site-footer"><a class="brand brand-small" href="#overview">afterlight.</a><span>Built by Thomas Verdier · A small tool for a more prepared world.</span><div><a class="text-button partner-link" href="mailto:tverdier88@gmail.com?subject=Afterlight%20partnership">Partner with Afterlight</a><button class="text-button" id="privacy-open" type="button">Privacy</button><button class="text-button" id="method-open" type="button">How we calculate</button></div></footer>
   <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-heading"><div><p class="eyebrow" id="modal-kicker"></p><h2 id="modal-title"></h2></div><button class="icon-button" id="modal-close" aria-label="Close dialog" type="button"><span data-icon="close"></span></button></div><div id="modal-content"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <div id="live-summary" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>

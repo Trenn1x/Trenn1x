@@ -1,6 +1,6 @@
 /* Afterlight caches only its own static assets. Plan inputs stay in localStorage. */
 'use strict';
-const CACHE = 'afterlight-static-v2';
+const CACHE = 'afterlight-static-v3';
 const ASSETS = ['./', 'index.html', 'styles.css', 'model.js', 'app.js', 'icon.svg', 'manifest.webmanifest', 'afterlight-offline.html'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

@@ -1,11 +1,14 @@
 # Afterlight
 
-[Open the live app](https://afterlight-outage-planner.tverd23.chatgpt.site) · The hosted link currently requires the owner's account. The portable edition below runs independently.
-
 A practical power outage planner built by Thomas Verdier. The app opens directly
 on an editable household scenario. It compares a battery's estimated duration
 with the intended outage period, estimates water needs, and creates a checklist
 that includes the household's selected needs.
+
+**Live public app:** [afterlight-outage-planner.tverd23.chatgpt.site](https://afterlight-outage-planner.tverd23.chatgpt.site)
+
+The public app requires no account. All plan inputs are stored in browser
+localStorage and exported files; they are not posted to an app server.
 
 ## What works
 
@@ -18,9 +21,6 @@ that includes the household's selected needs.
 - Print layout and a single-file offline app that embeds the current plan.
 - Responsive layouts, semantic controls, keyboard focus, and reduced-motion support.
 - No app accounts, analytics, remote API, database, or third-party runtime dependency.
-
-The hosted service can apply its own access controls. All plan inputs are stored
-in browser localStorage and exported files; they are not posted to an app server.
 
 ## Run or host
 
