@@ -1,10 +1,12 @@
 # ShelfRelay hosting
 
-The static app is ready for a dedicated public host. No server, database, or secret is required.
+The live public app is https://shelfrelay.netlify.app/ . The partnership page is https://shelfrelay.netlify.app/partners.html . No visitor login is required. No server, database, or secret is required for the app.
 
 ## Netlify
 
-Connect the repository Trenn1x/Trenn1x, use branch main, set the base directory to projects/shelfrelay, leave the build command empty, and publish dist. The project includes netlify.toml. The actual URL must be taken from a successful Netlify deployment; a name is not reserved by these files.
+Published on September 6, 2026 to the existing Netlify project `shelfrelay` (site ID `49385a7c-01de-417b-8fd9-da6926e70618`). Production deployment `6a9d98a218b95afc69837c4b` completed successfully using the app's static files in `dist/`.
+
+This deployment used a source upload; automatic deployment from GitHub is not configured. For future Git-based deployment, connect repository `Trenn1x/Trenn1x`, use branch `main`, set the base directory to `projects/shelfrelay`, leave the build command empty, and publish `dist`. The project includes `netlify.toml`.
 
 ## GitHub Pages
 
