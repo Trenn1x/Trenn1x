@@ -1,0 +1,4 @@
+# Set the Netlify base directory to projects/shelfrelay.
+[build]
+  publish = "dist"
+  command = ""
