@@ -1,0 +1,60 @@
+{
+  "source_dataset": "JHTDB isotropic1024coarse",
+  "mirror": "https://huggingface.co/datasets/ArielLubonja/johns-hopkins-turbulence-database",
+  "mirror_revision": "9179e424e6eb75bcd89d3f608be795a633ccc1fa",
+  "source_file": "isotropic1024-coarse-velocity.h5",
+  "source_file_metadata": {
+    "type": "file",
+    "oid": "55cb17378faa9a81f245dbf041b5c16829d93edb",
+    "size": 2015293800,
+    "lfs": {
+      "oid": "e32c9225af656a2f0fa0a704be7dcd78fa12efc1a01b880af23eb45e02108a46",
+      "size": 2015293800,
+      "pointerSize": 135
+    },
+    "xetHash": "b278798f6967bb99db6caa76b167976951e78631446ad81cc2dbad3584432167",
+    "path": "isotropic1024-coarse-velocity.h5"
+  },
+  "source_attributes": {
+    "dataset": "b'isotropic1024coarse'",
+    "filterWidth": "1",
+    "t_end": "10",
+    "t_start": "1",
+    "t_step": "1",
+    "x_end": "256",
+    "x_start": "1",
+    "x_step": "1",
+    "y_end": "256",
+    "y_start": "1",
+    "y_step": "1",
+    "z_end": "256",
+    "z_start": "1",
+    "z_step": "1"
+  },
+  "time_index": 1,
+  "start_xyz": [
+    97,
+    97,
+    97
+  ],
+  "shape": [
+    64,
+    64,
+    64,
+    3
+  ],
+  "array_order": "z,y,x,component",
+  "source_transpose_applied": false,
+  "direct_check_shape": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "direct_check_exact_float32_match": true,
+  "direct_response_sha256": "73b615cef754fa612db8aa929c1dbc0b5d702202456a5029af8238bd9ba22622",
+  "downloaded_utc": "2026-09-09T08:18:26.203285+00:00",
+  "http_bytes_read": 17825792,
+  "velocity_float32_sha256": "64521be69d36718dbfa61744aac47ca8b2664acfdaa638854434c0ff09f83e6a",
+  "cache_sha256": "07a0dd034fbcb37d80dbf74027228a18b26bc71f35c6c4489912c78935960cfa"
+}

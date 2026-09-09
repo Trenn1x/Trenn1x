@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this technical note when using the benchmark or diagnostics."
+type: software
+authors:
+  - family-names: Verdier
+    given-names: Thomas
+title: "Hidden vortex cores and false confidence in measurement resolution"
+version: 0.3.0
+date-released: 2026-09-09
+url: "https://github.com/Trenn1x/Trenn1x/tree/main/research/vortex-observability"
+license: MIT
+abstract: >-
+  Exact Gaussian vortex filtering, a singular anisotropy-resolution crossover,
+  conditional retention intervals, and a hidden-core counterexample, with
+  reproducible synthetic experiments and an explicitly limited external DNS pilot.

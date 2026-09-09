@@ -1,0 +1,29 @@
+{
+  "title": "Hidden vortex cores and false confidence in measurement resolution",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-09-09",
+  "creators": [
+    {
+      "name": "Verdier, Thomas",
+      "affiliation": "Independent researcher, Charleston, South Carolina"
+    }
+  ],
+  "description": "A technical note and reproducible benchmark on exact Gaussian vortex filtering, a singular anisotropy-resolution crossover, conditional retention intervals, and a hidden-core counterexample. A small external DNS pilot is reported with explicit scope limits. Developed with OpenAI Codex assistance; not externally refereed.",
+  "version": "0.3.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "vortex measurement",
+    "Gaussian filtering",
+    "resolution",
+    "scale space",
+    "model error"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Trenn1x/Trenn1x/tree/main/research/vortex-observability",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "audit_kind": "Internal mathematical and numerical review; no external referee",
+  "decimal_precision": 80,
+  "independent_maximum_cases": 24,
+  "max_relative_peak_error": 2.220446049250313e-16,
+  "max_relative_location_error": 3.986183161330814e-08,
+  "exact_rounding_cases": [
+    {
+      "base": 27,
+      "coarse": 8,
+      "power": 1.5,
+      "lower": 1.1832159566199232,
+      "upper": 1.1832159566199234,
+      "status": "enclosed"
+    },
+    {
+      "base": 3,
+      "coarse": 2,
+      "power": 0.5,
+      "lower": 1.1832159566199232,
+      "upper": 1.1832159566199234,
+      "status": "enclosed"
+    }
+  ],
+  "boundary_cases": 7,
+  "invalid_input_cases": 4,
+  "bounded_noise_corner_cases": 224,
+  "corner_coverage_failures": 0,
+  "hidden_core": {
+    "broad": {
+      "a": 10.0,
+      "b": 10.0,
+      "U": 1.0
+    },
+    "core": {
+      "a": 0.01,
+      "b": 0.01,
+      "U": 3.0
+    },
+    "true_total_peak": 3.001648946989902,
+    "true_peak_radius": 0.010002748405280749,
+    "measured_peaks": [
+      0.9802960494069208,
+      0.9381867695324805,
+      0.9660537032808967
+    ],
+    "actual_total_retention": 0.32658584222181486,
+    "analytic_retention_upper": 0.3267653598003073,
+    "core_to_broad_L2_ratio": 9.486832980505139e-05,
+    "single_profile_certificate": {
+      "status": "resolved",
+      "scope": "conditional_single_vortex_model",
+      "retention_lower": 0.9802960494055393,
+      "retention_upper": 0.980296049408354,
+      "radial": {
+        "lower": 9.99999999976539,
+        "upper": 10.000000000252307,
+        "status": "enclosed"
+      },
+      "axial": {
+        "lower": 9.999999999280359,
+        "upper": 10.000000000719577,
+        "status": "enclosed"
+      }
+    },
+    "common_observation": [
+      0.9802960494069209,
+      0.9381867695324093,
+      0.9660537032808968
+    ],
+    "common_observation_error": 4e-08,
+    "common_observation_certificate": {
+      "status": "resolved",
+      "scope": "conditional_single_vortex_model",
+      "retention_lower": 0.9802959931134307,
+      "retention_upper": 0.9802961057004057,
+      "radial": {
+        "lower": 9.999990261704697,
+        "upper": 10.000009738322781,
+        "status": "enclosed"
+      },
+      "axial": {
+        "lower": 9.99997121581099,
+        "upper": 10.000028784429476,
+        "status": "enclosed"
+      }
+    },
+    "interpretation": "The model-conditional result does not certify the total flow."
+  },
+  "energy_resolution_bound": "If ||u||_2 <= B and ||u||_infinity >= c*tau^(-gamma), retention >= rho requires d^2*eta <= B^2*tau^(2*gamma)/(8*pi^(3/2)*rho^2*c^2)."
+}

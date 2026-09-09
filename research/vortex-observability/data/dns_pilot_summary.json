@@ -1,0 +1,44 @@
+{
+  "dataset": "JHTDB isotropic1024coarse",
+  "time_index": 1,
+  "cutouts": 8,
+  "downloaded_points": 27000,
+  "cutout_shape": [
+    15,
+    15,
+    15,
+    3
+  ],
+  "evaluation_region": [
+    3,
+    3,
+    3
+  ],
+  "widths_cells": [
+    0.35,
+    0.5,
+    0.7
+  ],
+  "assessment_count": 48,
+  "relative_error_tolerance": 0.0001,
+  "status_counts": {
+    "resolved": 38,
+    "model_inconsistent": 9,
+    "underresolved": 1
+  },
+  "false_reassurance_on_grid": 0,
+  "false_underresolution_on_grid": 0,
+  "sampled_peak_ratio_range": [
+    0.8886256095125019,
+    1.0181973262418504
+  ],
+  "interpretation": "Small workflow pilot, not validation of model adequacy or hidden-core prevalence.",
+  "limits": [
+    "Eight fixed spatial cutouts at one time; not independent statistical replications.",
+    "Reference is a 3^3 interior sampled maximum, not a continuum or isolated-vortex peak.",
+    "Small widths cannot test strong underresolution; no amplitude or profile selection was used.",
+    "Sampled, truncated Gaussian differs from the continuous observation operator.",
+    "Error tolerance is a diagnostic setting, not a bound on unknown model error.",
+    "Axes are fixed; the cutout mean is a frame convention, not validated background removal."
+  ]
+}

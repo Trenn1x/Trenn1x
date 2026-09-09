@@ -1,0 +1,84 @@
+{
+  "dataset": "JHTDB isotropic1024coarse, public mirror",
+  "volume_count": 1,
+  "time_index": 1,
+  "volume_shape": [
+    64,
+    64,
+    64,
+    3
+  ],
+  "region_shape": [
+    16,
+    16,
+    16
+  ],
+  "region_count": 8,
+  "region_starts_zyx": [
+    [
+      16,
+      16,
+      16
+    ],
+    [
+      16,
+      16,
+      32
+    ],
+    [
+      16,
+      32,
+      16
+    ],
+    [
+      16,
+      32,
+      32
+    ],
+    [
+      32,
+      16,
+      16
+    ],
+    [
+      32,
+      16,
+      32
+    ],
+    [
+      32,
+      32,
+      16
+    ],
+    [
+      32,
+      32,
+      32
+    ]
+  ],
+  "widths_cells": [
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "frames": [
+    "laboratory",
+    "volume_mean_subtracted"
+  ],
+  "assessment_count": 64,
+  "status_counts": {
+    "resolved": 60,
+    "model_inconsistent": 2,
+    "underresolved": 2
+  },
+  "false_reassurance_on_grid": 14,
+  "false_underresolution_on_grid": 0,
+  "sampled_peak_ratio_range": [
+    0.6841816093276957,
+    0.9946206904389514
+  ],
+  "error_tolerance_relative": 0.0001,
+  "target": 0.9,
+  "interpretation": "Exploratory regional sampled-peak comparison on one volume; no model, continuum-peak, or prevalence validation."
+}

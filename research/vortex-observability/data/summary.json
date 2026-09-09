@@ -1,0 +1,70 @@
+{
+  "model": "Kinematic solenoidal Gaussian vortex; no PDE integration",
+  "seed": 20260909,
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39"
+  },
+  "quadrature_cases": 40,
+  "max_quadrature_normalized_error": 9.87074705403279e-16,
+  "sampled_convolution": [
+    {
+      "N_per_axis": 49,
+      "radial_step": 0.2427150392492763,
+      "line_field_error_over_peak": 3.362694835302518e-16,
+      "sampled_line_peak_relative_bias": 0.016211055885843262
+    },
+    {
+      "N_per_axis": 65,
+      "radial_step": 0.18203627943695722,
+      "line_field_error_over_peak": 1.064853364512464e-15,
+      "sampled_line_peak_relative_bias": 0.008496075177184315
+    },
+    {
+      "N_per_axis": 97,
+      "radial_step": 0.12135751962463814,
+      "line_field_error_over_peak": 7.846287949039208e-16,
+      "sampled_line_peak_relative_bias": 0.0004309671264641768
+    },
+    {
+      "N_per_axis": 129,
+      "radial_step": 0.09101813971847861,
+      "line_field_error_over_peak": 7.03646034145396e-16,
+      "sampled_line_peak_relative_bias": 0.0002453971658283871
+    }
+  ],
+  "late_time_fitted_exponent": 1.4899999707093465,
+  "late_time_theory_exponent": 1.49,
+  "trajectory": {
+    "h": 0.005,
+    "delta": 0.02,
+    "tau_at_sampled_max": 0.0011481536214968829,
+    "sampled_max_measured_peak": 16.93462834700151,
+    "last_true_peak": 11748975.549395297,
+    "last_measured_peak": 8.627401653295641e-15,
+    "last_energy_fraction": 1.6218100973589303e-07
+  },
+  "isotropic_normalized_limit": 0.3247595264191645,
+  "anisotropy_first_normalized_limit": 0.3849001794597505,
+  "ratio_of_iterated_limits": 1.1851851851851851,
+  "noise_trials": 5000,
+  "noise_absolute_bound": 0.0001,
+  "retention_target": 0.9,
+  "noise_status_counts": {
+    "underresolved": 3507,
+    "indeterminate": 968,
+    "resolved": 525
+  },
+  "interval_coverage_failures": 0,
+  "false_resolved": 0,
+  "false_underresolved": 0,
+  "max_noiseless_inverse_relative_error": 1.354472090042691e-14,
+  "crossover_max_relative_error_by_h": {
+    "0.009": 0.01218432790204782,
+    "0.005": 0.0068122009568889474,
+    "0.001": 0.0013710964433977235
+  }
+}

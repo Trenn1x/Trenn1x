@@ -1,0 +1,370 @@
+[
+  {
+    "label": "x129_y129_z129",
+    "start_xyz": [
+      129,
+      129,
+      129
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:45.015559+00:00",
+    "response_sha256": "3418e22496c0c6b3c2656394b99c9eed168ef7339d9a6b432430de9a4c5b9811",
+    "velocity_float32_sha256": "e609469d17aace8d51ddbd21645cbb7b6edfd6d6e2cba4aee532e107495474fb",
+    "cache_sha256": "13e41b5dea5d93115d33d3535957559fe60ba7399c6cea4de25495e45f92d83d",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 129,
+      "y_start": 129,
+      "z_start": 129,
+      "x_end": 143,
+      "y_end": 143,
+      "z_end": 143,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x129_y129_z641",
+    "start_xyz": [
+      129,
+      129,
+      641
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:45.046552+00:00",
+    "response_sha256": "32ec4477649b19e224f01d071fa6720ff42187ac5036221330ee5a81a99cf8c9",
+    "velocity_float32_sha256": "43cedfdab9ee07e193a0bcaa45705f8d0d32244ac10bb1acede43185cf38087b",
+    "cache_sha256": "83646ac364208afbee63f7d3036af448af2dca8fd76411a87da996adada4e973",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 129,
+      "y_start": 129,
+      "z_start": 641,
+      "x_end": 143,
+      "y_end": 143,
+      "z_end": 655,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x129_y641_z129",
+    "start_xyz": [
+      129,
+      641,
+      129
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:50.746862+00:00",
+    "response_sha256": "9ddd7b20a75dc3bce329caff5e8d7eee75dfa5ed11bb0029e62a486ccb374688",
+    "velocity_float32_sha256": "969b6493073aee8c00936e492311110afdf2b9998d2d33a1d9d100ccc0759d33",
+    "cache_sha256": "a155fece351273a386ff427b8b4bca5861a11bd45daf5270fc4572424c1289c0",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 129,
+      "y_start": 641,
+      "z_start": 129,
+      "x_end": 143,
+      "y_end": 655,
+      "z_end": 143,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x129_y641_z641",
+    "start_xyz": [
+      129,
+      641,
+      641
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:50.771919+00:00",
+    "response_sha256": "6117e0416dc1f61f191156958b8250867eef39d6cc56e48c539a66d55e8e262c",
+    "velocity_float32_sha256": "b23aac150b52b8eb9982e11374f9c5faf3de7b997c7888cc6d0f8ff81116fd30",
+    "cache_sha256": "3fcba5419513256b598c30877fcb64fae0fb55b4a4b9783ff695179b1ae8d9f4",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 129,
+      "y_start": 641,
+      "z_start": 641,
+      "x_end": 143,
+      "y_end": 655,
+      "z_end": 655,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x641_y129_z129",
+    "start_xyz": [
+      641,
+      129,
+      129
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:56.736786+00:00",
+    "response_sha256": "64b331c3ce7eb3a85faf20c8ce1a132ada57f3f6f0b3f3e45c812fa9208c3fc7",
+    "velocity_float32_sha256": "e74fca5d816fccbf14bbeca80fb8ecd1fc0a90f288d0dca95351496ee245f0c0",
+    "cache_sha256": "da8587727a0f4eb1543a3fec96b333c02d59e56a71d264dc72d2e90b9c4cf1bd",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 641,
+      "y_start": 129,
+      "z_start": 129,
+      "x_end": 655,
+      "y_end": 143,
+      "z_end": 143,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x641_y129_z641",
+    "start_xyz": [
+      641,
+      129,
+      641
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:07:56.604562+00:00",
+    "response_sha256": "a87fc118424bc0392025864c5e68ab21baf01ec02751339c98ea011f2b69a39e",
+    "velocity_float32_sha256": "9f6092345e3f8c1e156799bf4ef1f4f3cab50a11a0422bdec5eefa4c4e0ee699",
+    "cache_sha256": "10873647ca12ce4a00d2dbf34b3bbc34962eb47ca7e01130738352f8db0056ca",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 641,
+      "y_start": 129,
+      "z_start": 641,
+      "x_end": 655,
+      "y_end": 143,
+      "z_end": 655,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x641_y641_z129",
+    "start_xyz": [
+      641,
+      641,
+      129
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:08:02.329772+00:00",
+    "response_sha256": "f4aa2ecef58b68ffe16ff09115b1a4c842075ab9d4c003453d56ab9c314536bc",
+    "velocity_float32_sha256": "83b1d930a81016ed8039f0845342c51358df2eeccf1074dc0447ba3958b15a35",
+    "cache_sha256": "6e8701035f3b91e4654f69d666ef6ff6dd21b027e179fbe1560be2f8d98c049e",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 641,
+      "y_start": 641,
+      "z_start": 129,
+      "x_end": 655,
+      "y_end": 655,
+      "z_end": 143,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  },
+  {
+    "label": "x641_y641_z641",
+    "start_xyz": [
+      641,
+      641,
+      641
+    ],
+    "points": 3375,
+    "dataset": "isotropic1024coarse",
+    "time_index": 1,
+    "variable": "velocity_0001",
+    "shape": [
+      15,
+      15,
+      15,
+      3
+    ],
+    "coordinate_order": [
+      "zcoor",
+      "ycoor",
+      "xcoor",
+      "values"
+    ],
+    "downloaded_utc": "2026-09-09T08:08:02.318525+00:00",
+    "response_sha256": "01fbecb1e5030f061ecc476ff0138a04b3c52e2bc5b393a66621ee38b84e1f8b",
+    "velocity_float32_sha256": "dbbbb1435165da7356c7672760e7e580f36ade4cbcb4ac9745e0aa8f51120c79",
+    "cache_sha256": "2f7cb4774ed554c66db5de70e5349af0e27de822e9f7f19ea64fd22ffd98d43f",
+    "source_attributes": {
+      "dataset": "isotropic1024coarse",
+      "t_start": 1,
+      "t_end": 1,
+      "t_step": 1,
+      "x_start": 641,
+      "y_start": 641,
+      "z_start": 641,
+      "x_end": 655,
+      "y_end": 655,
+      "z_end": 655,
+      "x_step": 1,
+      "y_step": 1,
+      "z_step": 1,
+      "filterWidth": 1
+    },
+    "endpoint": "https://web.idies.jhu.edu/turbulence-svc/cutout/api/local",
+    "public_token_documentation": "https://turbulence.idies.jhu.edu/database"
+  }
+]
