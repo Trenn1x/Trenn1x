@@ -1,0 +1,5 @@
+name,actual_ratio,status,expected_status,false_reassurance,heldout_max_miss,sample_spacing,core_radius,sampled_peak,analytic_continuum_peak,relative_difference
+resolved_single,0.9802960494069209,resolved,resolved,,,,,,,
+underresolved_single,0.64,underresolved,underresolved,,,,,,,
+hidden_core_sampled_analytic_filter,0.29994572012987136,resolved,,True,0.0,0.125,0.5,,,
+sampled_convolution_single,,,,,,,,0.8283221886608969,0.82832218795516,8.520077976470475e-10

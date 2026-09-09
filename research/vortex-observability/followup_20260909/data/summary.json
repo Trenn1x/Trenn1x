@@ -1,0 +1,312 @@
+{
+  "volume_count": 1,
+  "independent_replication": false,
+  "protocol": {
+    "frozen_at_utc": "2026-09-09T09:22:26.749785+00:00",
+    "protocol_sha256": "dbd0dcd426433113380d96d31fd6521d1ec361899258266ad194bfdccefc786f",
+    "larger_sample_examined": false
+  },
+  "selection": {
+    "laboratory": {
+      "background": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "candidate_count_before_separation": 17,
+      "selected": [
+        {
+          "center": [
+            65,
+            82,
+            63
+          ],
+          "speed": 1.7373437282887303,
+          "Q": 0.003271080153966821
+        },
+        {
+          "center": [
+            82,
+            67,
+            75
+          ],
+          "speed": 1.6663421753581826,
+          "Q": 0.009460123378036034
+        },
+        {
+          "center": [
+            61,
+            51,
+            82
+          ],
+          "speed": 1.4810688448946074,
+          "Q": 0.05434355304245439
+        },
+        {
+          "center": [
+            67,
+            80,
+            79
+          ],
+          "speed": 1.4093969024331405,
+          "Q": 0.0013077799950361735
+        },
+        {
+          "center": [
+            80,
+            62,
+            45
+          ],
+          "speed": 1.3447772948237169,
+          "Q": 0.00375544996208399
+        },
+        {
+          "center": [
+            50,
+            44,
+            67
+          ],
+          "speed": 0.8272518468730803,
+          "Q": 0.0003666284516403717
+        },
+        {
+          "center": [
+            51,
+            80,
+            54
+          ],
+          "speed": 0.6949894689043886,
+          "Q": 0.0002724360318096808
+        }
+      ],
+      "distinct_candidates": 7
+    },
+    "original_64_mean_subtracted": {
+      "background": [
+        0.18649780183841158,
+        -0.20572952622637503,
+        -0.7888405750601493
+      ],
+      "candidate_count_before_separation": 19,
+      "selected": [
+        {
+          "center": [
+            56,
+            53,
+            83
+          ],
+          "speed": 1.2375061984238642,
+          "Q": 0.022104564465736276
+        },
+        {
+          "center": [
+            82,
+            49,
+            72
+          ],
+          "speed": 1.0830821303072136,
+          "Q": 5.914120994651023e-05
+        },
+        {
+          "center": [
+            66,
+            83,
+            63
+          ],
+          "speed": 0.9393479172584438,
+          "Q": 0.003494139786239997
+        },
+        {
+          "center": [
+            75,
+            65,
+            69
+          ],
+          "speed": 0.8970462419870121,
+          "Q": 0.001791460590478522
+        },
+        {
+          "center": [
+            65,
+            68,
+            56
+          ],
+          "speed": 0.8222939136299746,
+          "Q": 0.0021198929688227564
+        },
+        {
+          "center": [
+            50,
+            55,
+            55
+          ],
+          "speed": 0.7410945419597115,
+          "Q": 0.002623779120243336
+        },
+        {
+          "center": [
+            81,
+            73,
+            52
+          ],
+          "speed": 0.7030460983317605,
+          "Q": 0.007478400439320909
+        },
+        {
+          "center": [
+            47,
+            79,
+            75
+          ],
+          "speed": 0.6813707945246904,
+          "Q": 0.00037910033863949866
+        }
+      ],
+      "distinct_candidates": 8
+    },
+    "expanded_128_mean_subtracted": {
+      "background": [
+        0.22802290327813407,
+        -0.4694385330222217,
+        -0.6737730085816643
+      ],
+      "candidate_count_before_separation": 19,
+      "selected": [
+        {
+          "center": [
+            56,
+            53,
+            83
+          ],
+          "speed": 1.5246602205727082,
+          "Q": 0.022104564465736276
+        },
+        {
+          "center": [
+            82,
+            50,
+            78
+          ],
+          "speed": 1.3122836043427015,
+          "Q": 2.3724688904297464e-05
+        },
+        {
+          "center": [
+            83,
+            76,
+            63
+          ],
+          "speed": 1.247051208854645,
+          "Q": 0.0029412263969661448
+        },
+        {
+          "center": [
+            65,
+            82,
+            62
+          ],
+          "speed": 0.9407951290268841,
+          "Q": 0.005473476969472535
+        },
+        {
+          "center": [
+            46,
+            79,
+            74
+          ],
+          "speed": 0.9312079407404168,
+          "Q": 0.0007526044462839773
+        },
+        {
+          "center": [
+            52,
+            63,
+            46
+          ],
+          "speed": 0.7860143306763133,
+          "Q": 0.0002538997037148105
+        },
+        {
+          "center": [
+            51,
+            64,
+            69
+          ],
+          "speed": 0.6636545300986877,
+          "Q": 0.0006355406237552319
+        },
+        {
+          "center": [
+            58,
+            81,
+            47
+          ],
+          "speed": 0.5954192864333728,
+          "Q": 0.0006632201100503776
+        }
+      ],
+      "distinct_candidates": 8
+    }
+  },
+  "central_assessments": 36,
+  "event_assessments": 92,
+  "controls": [
+    {
+      "name": "resolved_single",
+      "actual_ratio": 0.9802960494069209,
+      "status": "resolved",
+      "expected_status": "resolved"
+    },
+    {
+      "name": "underresolved_single",
+      "actual_ratio": 0.64,
+      "status": "underresolved",
+      "expected_status": "underresolved"
+    },
+    {
+      "name": "hidden_core_sampled_analytic_filter",
+      "actual_ratio": 0.29994572012987136,
+      "status": "resolved",
+      "false_reassurance": true,
+      "heldout_max_miss": 0.0,
+      "sample_spacing": 0.125,
+      "core_radius": 0.5
+    },
+    {
+      "name": "sampled_convolution_single",
+      "sampled_peak": 0.8283221886608969,
+      "analytic_continuum_peak": 0.82832218795516,
+      "relative_difference": 8.520077976470475e-10
+    }
+  ],
+  "event_raw_statuses": {
+    "resolved": 92
+  },
+  "event_raw_false_reassurance": 32,
+  "sensitivity": {
+    "0.005": {
+      "statuses": {
+        "abstain": 91,
+        "resolved": 1
+      },
+      "eligible": 1,
+      "false_reassurance": 0
+    },
+    "0.01": {
+      "statuses": {
+        "abstain": 87,
+        "resolved": 5
+      },
+      "eligible": 5,
+      "false_reassurance": 1
+    },
+    "0.02": {
+      "statuses": {
+        "abstain": 85,
+        "resolved": 7
+      },
+      "eligible": 7,
+      "false_reassurance": 2
+    }
+  }
+}

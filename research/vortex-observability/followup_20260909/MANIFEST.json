@@ -1,0 +1,80 @@
+{
+  "scope": "Exploratory field-of-view supplement; original v0.3.0 files unchanged",
+  "files": [
+    {
+      "path": "PROTOCOL.md",
+      "size_bytes": 3840,
+      "sha256": "dbd0dcd426433113380d96d31fd6521d1ec361899258266ad194bfdccefc786f"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7998,
+      "sha256": "545a3e036f5fd70f935531c51a8fe2530a1d68e296e4a5862dac36f464ae6bd0"
+    },
+    {
+      "path": "acquire_extended.py",
+      "size_bytes": 1946,
+      "sha256": "6122d9a6efa1a09d825ec75a15e48d748a0239378216d23f2a7b2934d755905f"
+    },
+    {
+      "path": "analyze.py",
+      "size_bytes": 12317,
+      "sha256": "feb7baf12d02e86860de280e4879f2ed4288b980355948933dd1a6c3b8b4688d"
+    },
+    {
+      "path": "audit_case.py",
+      "size_bytes": 1933,
+      "sha256": "f760180e7c6c8d02cec10742f3d602dac26ca9a46aff7352b68829dc22fb106a"
+    },
+    {
+      "path": "data/case_audit.json",
+      "size_bytes": 6008,
+      "sha256": "43e265c2bcf15f4f0e2c926018e88e0df660b36174196c8b88631fea398c15a7"
+    },
+    {
+      "path": "data/central_expansion.csv",
+      "size_bytes": 5563,
+      "sha256": "c6d85940e472a8e3acf18be80b8a195bc1afaa8024ff9483ca01ac50ddd17153"
+    },
+    {
+      "path": "data/controls.csv",
+      "size_bytes": 466,
+      "sha256": "d8f53e26b94e48af00bb275903559b476096b5130e890d6aabb59b20976ad66a"
+    },
+    {
+      "path": "data/event_assessments.csv",
+      "size_bytes": 23092,
+      "sha256": "6fe29be8b1ac6e49892a8d4364ffd10b9ff2f3ac0d5ac8e54f493e3f75503e43"
+    },
+    {
+      "path": "data/extended_provenance.json",
+      "size_bytes": 780,
+      "sha256": "e39ab15006d98e58ab4726ad771eb28055cbe07e43332c233513f8327a4ae001"
+    },
+    {
+      "path": "data/peak_locations.csv",
+      "size_bytes": 167565,
+      "sha256": "4960002ed2e8d365d851a4b2c77c7f06c3a187dcd7fef99ad87a96e42dc9309e"
+    },
+    {
+      "path": "data/protocol_freeze.json",
+      "size_bytes": 182,
+      "sha256": "44334cc8b8c5cc45e86461a13fc8507de8fe73b2757897bf50b119bce7ea3ca7"
+    },
+    {
+      "path": "data/summary.json",
+      "size_bytes": 6514,
+      "sha256": "a2a0faf005ae3d4dcabc9bd4ff8c379c2f8cd2e95424269bbefd4a96ceae7977"
+    },
+    {
+      "path": "figures/fov_followup.pdf",
+      "size_bytes": 20416,
+      "sha256": "9465471879cd213735927a46c241de4354bbf48e050702e8709251051a628c09"
+    },
+    {
+      "path": "figures/fov_followup.png",
+      "size_bytes": 155119,
+      "sha256": "f47e7640f3f5069e46e2ae605e452437b41dfa7c09f61f9b9e49e2a8f2a8537a"
+    }
+  ]
+}

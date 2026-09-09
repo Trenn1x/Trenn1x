@@ -1,0 +1,276 @@
+{
+  "audit_type": "Post-outcome direct summation and additional 41-cubed region stress test",
+  "selected_case": {
+    "frame": "expanded_128_mean_subtracted",
+    "center": [
+      83,
+      76,
+      63
+    ],
+    "width": 1.0
+  },
+  "direct_summation": [
+    {
+      "field": 0,
+      "position": [
+        90,
+        71,
+        73
+      ],
+      "sigma_zyx": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_peak": 1.4183308791961944,
+      "scipy_peak": 1.4183308791961946,
+      "max_component_difference": 7.771561172376096e-16
+    },
+    {
+      "field": 1,
+      "position": [
+        90,
+        72,
+        73
+      ],
+      "sigma_zyx": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "direct_peak": 1.3003476994939276,
+      "scipy_peak": 1.300347699493931,
+      "max_component_difference": 4.884981308350689e-15
+    },
+    {
+      "field": 2,
+      "position": [
+        89,
+        73,
+        73
+      ],
+      "sigma_zyx": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "direct_peak": 1.3092658913022428,
+      "scipy_peak": 1.3092658913022444,
+      "max_component_difference": 1.9984014443252818e-15
+    },
+    {
+      "field": 3,
+      "position": [
+        89,
+        73,
+        73
+      ],
+      "sigma_zyx": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "direct_peak": 1.3130850743945222,
+      "scipy_peak": 1.313085074394524,
+      "max_component_difference": 2.3314683517128287e-15
+    },
+    {
+      "field": 4,
+      "position": [
+        89,
+        73,
+        74
+      ],
+      "sigma_zyx": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "direct_peak": 1.2169070273580547,
+      "scipy_peak": 1.2169070273580673,
+      "max_component_difference": 8.548717289613705e-15
+    }
+  ],
+  "expanded_region": [
+    {
+      "field": 0,
+      "region_side": 17,
+      "peak": 1.3837689628197123,
+      "peak_edge": 0,
+      "native_peak": 1.5835930831631524,
+      "native_edge": 0,
+      "ratio": 0.8738159932194823
+    },
+    {
+      "field": 0,
+      "region_side": 25,
+      "peak": 1.4183308791961946,
+      "peak_edge": 2,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 3,
+      "ratio": 0.8818735437021287
+    },
+    {
+      "field": 0,
+      "region_side": 33,
+      "peak": 1.4183308791961946,
+      "peak_edge": 6,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 7,
+      "ratio": 0.8818735437021287
+    },
+    {
+      "field": 0,
+      "region_side": 41,
+      "peak": 1.4183308791961946,
+      "peak_edge": 10,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 11,
+      "ratio": 0.8818735437021287
+    },
+    {
+      "field": 1,
+      "region_side": 17,
+      "peak": 1.2610986452884942,
+      "peak_edge": 0,
+      "native_peak": 1.5835930831631524,
+      "native_edge": 0,
+      "ratio": 0.796352711246698
+    },
+    {
+      "field": 1,
+      "region_side": 25,
+      "peak": 1.300347699493931,
+      "peak_edge": 2,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 3,
+      "ratio": 0.8085153123420061
+    },
+    {
+      "field": 1,
+      "region_side": 33,
+      "peak": 1.300347699493931,
+      "peak_edge": 6,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 7,
+      "ratio": 0.8085153123420061
+    },
+    {
+      "field": 1,
+      "region_side": 41,
+      "peak": 1.300347699493931,
+      "peak_edge": 10,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 11,
+      "ratio": 0.8085153123420061
+    },
+    {
+      "field": 2,
+      "region_side": 17,
+      "peak": 1.246690027148829,
+      "peak_edge": 0,
+      "native_peak": 1.5835930831631524,
+      "native_edge": 0,
+      "ratio": 0.7872540240316184
+    },
+    {
+      "field": 2,
+      "region_side": 25,
+      "peak": 1.3092658913022444,
+      "peak_edge": 2,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 3,
+      "ratio": 0.8140603635911687
+    },
+    {
+      "field": 2,
+      "region_side": 33,
+      "peak": 1.3092658913022444,
+      "peak_edge": 6,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 7,
+      "ratio": 0.8140603635911687
+    },
+    {
+      "field": 2,
+      "region_side": 41,
+      "peak": 1.3092658913022444,
+      "peak_edge": 10,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 11,
+      "ratio": 0.8140603635911687
+    },
+    {
+      "field": 3,
+      "region_side": 17,
+      "peak": 1.264708644066424,
+      "peak_edge": 0,
+      "native_peak": 1.5835930831631524,
+      "native_edge": 0,
+      "ratio": 0.7986323364965879
+    },
+    {
+      "field": 3,
+      "region_side": 25,
+      "peak": 1.313085074394524,
+      "peak_edge": 2,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 3,
+      "ratio": 0.8164350115502857
+    },
+    {
+      "field": 3,
+      "region_side": 33,
+      "peak": 1.313085074394524,
+      "peak_edge": 6,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 7,
+      "ratio": 0.8164350115502857
+    },
+    {
+      "field": 3,
+      "region_side": 41,
+      "peak": 1.313085074394524,
+      "peak_edge": 10,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 11,
+      "ratio": 0.8164350115502857
+    },
+    {
+      "field": 4,
+      "region_side": 17,
+      "peak": 1.1651175471741113,
+      "peak_edge": 0,
+      "native_peak": 1.5835930831631524,
+      "native_edge": 0,
+      "ratio": 0.73574301350625
+    },
+    {
+      "field": 4,
+      "region_side": 25,
+      "peak": 1.2169070273580676,
+      "peak_edge": 1,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 3,
+      "ratio": 0.7566345260567613
+    },
+    {
+      "field": 4,
+      "region_side": 33,
+      "peak": 1.2169070273580676,
+      "peak_edge": 5,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 7,
+      "ratio": 0.7566345260567613
+    },
+    {
+      "field": 4,
+      "region_side": 41,
+      "peak": 1.2169070273580676,
+      "peak_edge": 9,
+      "native_peak": 1.6083154884565465,
+      "native_edge": 11,
+      "ratio": 0.7566345260567613
+    }
+  ]
+}

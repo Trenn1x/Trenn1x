@@ -1,0 +1,23 @@
+{
+  "source_url": "https://huggingface.co/datasets/ArielLubonja/johns-hopkins-turbulence-database/resolve/9179e424e6eb75bcd89d3f608be795a633ccc1fa/isotropic1024-coarse-velocity.h5",
+  "mirror_revision": "9179e424e6eb75bcd89d3f608be795a633ccc1fa",
+  "source_dataset": "JHTDB isotropic1024coarse",
+  "source_key": "Velocity_0001",
+  "zero_based_start_zyx": [
+    64,
+    64,
+    64
+  ],
+  "shape": [
+    128,
+    128,
+    128,
+    3
+  ],
+  "array_order": "z,y,x,component",
+  "exact_central_64_overlap": true,
+  "velocity_float32_sha256": "bc6b162fd2c5bc21341dc838a5e688f25f16d6a64bb58f89bde504b906ccc3b5",
+  "cache_sha256": "84d40e12b98c8edaf9fd3a62da24b31cb8cdfb9629f4fb0dc26ad738d03b97b1",
+  "http_bytes_read": 57671680,
+  "acquired_at_utc": "2026-09-09T09:23:41.542563+00:00"
+}
