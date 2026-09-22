@@ -1,0 +1,4 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const args=process.argv.slice(2),at=args.indexOf('--port'),port=at>=0?Number(args[at+1]):Number(process.env.PORT||4173);
+const types={'.html':'text/html','.css':'text/css','.js':'application/javascript','.png':'image/png'};
+http.createServer((req,res)=>{const name=decodeURIComponent(req.url.split('?')[0]);const file=path.join(__dirname,name==='/'?'index.html':name);if(!file.startsWith(__dirname+path.sep)){res.writeHead(403);res.end();return;}fs.readFile(file,(err,data)=>{if(err){res.writeHead(404);res.end('Not found');return;}res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});res.end(data);});}).listen(port,'0.0.0.0',()=>console.log(`Overengineered preview listening on ${port}`));
