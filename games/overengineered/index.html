@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#112525"><meta name="description" content="Build a wonderfully unnecessary machine. A free Rube Goldberg inspired chain-reaction puzzle game with eight puzzles and a sandbox."><title>Overengineered • A tiny chain-reaction game</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="app">
+<header><div class="brand"><span class="brand-mark" aria-hidden="true">↝</span><div><h1>OVERENGINEERED<span class="version">v0.1</span></h1><p>Small task. Spectacularly long way around.</p></div></div><button id="sound" class="quiet" aria-pressed="false">Sound off</button></header>
+<main>
+<section class="bench" aria-label="Machine workbench">
+<div class="bench-heading"><div><span class="eyebrow" id="stageLabel">EXPERIMENT 01 / 08</span><h2 id="levelTitle"></h2></div><label class="level-picker"><span class="sr-only">Choose an experiment</span><select id="levels" aria-label="Choose an experiment"></select></label></div>
+<p class="brief" id="brief"></p>
+<div class="board-wrap"><div class="coordinate-top" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span></div><div id="board" class="board" aria-label="8 by 6 machine workbench"></div><div id="marble" class="marble" aria-hidden="true"></div><div id="sparks" class="sparks" aria-hidden="true"></div></div>
+<div class="bench-foot"><span id="partCount">0 parts placed</span><span id="checkpointCount">Just ring the bell</span><span id="solvedCount">0 / 8 solved</span></div>
+<div class="controls"><button id="run" class="run">▶ Run machine</button><button id="undo" class="quiet">↶ Undo</button><button id="reset" class="quiet">Reset</button><button id="hint" class="quiet">Hint</button></div>
+<div id="status" class="status" role="status" aria-live="polite">Choose a part below, then tap an empty socket.</div><button id="next" class="next" hidden>Next experiment →</button>
+</section>
+<aside class="toolbox" aria-label="Parts and instructions"><div class="toolbox-title"><span class="eyebrow">YOUR PARTS</span><span class="eyebrow" id="trayNote">TAP TO SELECT</span></div><div id="tools" class="tools"></div><button id="erase" class="erase" aria-pressed="false">⌫ Eraser</button><p id="toolHint" class="tool-hint"></p><div class="rulebook"><h3>One small thing: ring the bell.</h3><ol><li>Pick a part. Tap a socket to place it.</li><li>Tap a placed part to rotate its arrow.</li><li>Run it. Tinker. Revel in the excess.</li></ol><p>Arrows show the next landing. Springs skip one socket; fans skip two. Brass rings are checkpoints. Bolted parts stay put.</p><p class="keyboard">Keyboard: Tab to a socket, Enter to place or rotate. Space runs the machine. Z undoes.</p></div><div class="workshop-stamp">DEPT. OF UNNECESSARY INVENTIONS<br><span>THOMAS VERDIER · PROTOTYPE 001</span></div></aside>
+</main>
+<footer><span>A tiny, deterministic chain-reaction toy. Made for tinkering.</span><span>Progress stays in this browser.</span></footer>
+</div>
+<script src="engine.js"></script><script src="game.js"></script>
+</body></html>
